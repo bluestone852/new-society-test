@@ -12,15 +12,81 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="mission">
             <h2>Our Mission</h2>
             <p>We are dedicated to building a better future through innovation and collaboration.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About Us</h2>
+            <p>New Society was founded in 2024 with a simple yet powerful vision: to create sustainable solutions for tomorrow's challenges. Our interdisciplinary team brings together experts from various fields to tackle complex problems with innovative approaches.</p>
+            <p>We believe in transparency, equality, and the power of community-driven initiatives to create lasting change.</p>
+        </section>
+        
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <h3>Sustainable Development</h3>
+                    <p>We create and implement eco-friendly solutions for businesses and communities.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Technology Consulting</h3>
+                    <p>Our experts help navigate the complex world of emerging technologies.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Community Building</h3>
+                    <p>We facilitate networks that connect like-minded individuals and organizations.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="team">
+            <h2>Our Team</h2>
+            <div class="team-container">
+                <div class="team-member">
+                    <h3>Jane Doe</h3>
+                    <p class="position">Founder & CEO</p>
+                    <p>Jane brings over 15 years of experience in sustainable technology and community organizing.</p>
+                </div>
+                <div class="team-member">
+                    <h3>John Smith</h3>
+                    <p class="position">Chief Technology Officer</p>
+                    <p>John has pioneered several breakthrough technologies in renewable energy systems.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Emily Chen</h3>
+                    <p class="position">Community Director</p>
+                    <p>Emily specializes in building bridges between diverse stakeholders and communities.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
     <footer>
